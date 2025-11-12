@@ -1,7 +1,6 @@
 # PySpark NYC Taxi Data Pipeline
 
 ## Dataset Description
-- **Source:** [Databricks Public Datasets → nyctaxi](https://docs.databricks.com/en/sample-data/nyctaxi.html)
 - **Files Used:**
   - `dbfs:/databricks-datasets/nyctaxi/tripdata/yellow/` (2019-01 for development, 2017–2020 for full run)
   - `dbfs:/databricks-datasets/nyctaxi/taxizone/` (Taxi Zone reference)
@@ -75,20 +74,15 @@
 
 | Metric | Example Value | Insight |
 |--------|----------------|---------|
-| Avg tip rate | ~18% | Manhattan has the highest average tipping behavior |
+| Avg tip rate | ~16% | Manhattan has the highest average tipping behavior |
 | Peak pickup hour | 18:00–20:00 | Evening rush hour dominates trip volume |
-| Longest avg trip distance | Queens → Bronx | More suburban trips, higher fare |
+| Longest avg trip distance | Queens → Bronx | Suburban cross-borough trips tend to be longer and more expensive |
 
-## Screenshots to Include
+## Screenshots
 
-Required (per assignment):
-1. **Query Execution Plan** (`df.explain(True)` output)  
-2. **Query Details view (Databricks screenshot)**  
-3. **Successful pipeline output (`.show()` / `.write`)**
-
-Insert them here (Markdown syntax example):
-![Execution Plan](images/explain_output.png)
-![Query Details](images/query_details.png)
+![Execution Plan](images/Explain.png)
+![Query Details](images/Query.png)
+![Pipline Output](images/Pipline.png)
 
 
 ---
