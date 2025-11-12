@@ -106,7 +106,7 @@ pyspark-nyc-taxi-pipeline/
 
 ### **Part 7 — Run Instructions**
 
-## ✅ How to Run
+## How to Run
 1. Open in Databricks Notebook or local PySpark setup.  
 2. Attach to an active cluster.  
 3. Run cells A–H sequentially.  
